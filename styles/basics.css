@@ -1,12 +1,14 @@
 html {
     box-sizing: border-box;
   }
+  
   *,
   *::before,
   *::after {
     box-sizing: inherit;
     padding: 0px;
   }
+
   .box {
     display: flex;
     align-items: center;
@@ -19,3 +21,4 @@ html {
     height: 100px;
     border: 2px solid red;
   }
+
